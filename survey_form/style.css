@@ -54,6 +54,10 @@ body {
     border-radius: 5px;
     font-size: inherit;
   }
+
+  input {
+    padding: 10px;
+  }
   
   textarea {
     width: 100%;
