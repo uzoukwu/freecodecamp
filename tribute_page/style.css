@@ -1,0 +1,168 @@
+
+
+    HTML CSS 
+
+    Result
+    Skip Results Iframe
+
+body {
+  font-family: 'Bad Script', cursive;
+}
+
+#main {
+  color: #70798C;
+  }
+
+header {
+  background-color: #dad2bc;
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#header-anim {
+  animation-name: colorChange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: -2s;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #dad2bc;
+  }
+  
+  50% {
+    background-color: #f5f1ed;
+  }
+}
+
+h1, h2, #img-caption {
+  text-align: center; 
+}
+
+h1 {
+  font-size: 3.5em;
+  padding-top: 0.2em;
+  margin: 0;
+}
+
+h2 {
+  padding-top: -20px;
+  margin-top: -10px;
+  font-size: 1.5em;
+}
+
+ul li{
+  color: #000;
+  display: block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+}
+
+#image {
+ max-width: 100%;
+ height:auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ box-shadow: 10px 10px 5px #f5f1ed;
+
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+#main-text {
+  height: auto;
+  display: flex;
+  background-color: #f5f1ed;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.facts {
+  max-width: 20%;
+  height: 500px;
+  text-align: center;
+  padding: 20px;
+  font-family: "Arial, sans-serif";
+  font-size: 1.3em;
+  align-items: center;
+}
+
+
+
+#fact-1 {
+  background-color: #fe938c;
+  
+}
+
+#fact-2 {
+  background-color: #e6b89c;
+  
+}
+
+#fact-3 {
+  background-color: #ead2ac;
+}
+
+#fact-4 {
+  background-color: #9cafb7;
+}
+
+#fact-5 {
+  background-color: #b1ae91;
+}
+
+#fact-img {
+  order: 6;
+}
+
+a{
+    color: #e6b89c;
+    display: block;
+    margin-top: 10px;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+a:visited {
+  color: #fe938c;
+}
+
+a:hover {
+  color: #ead2ac;
+}
+
+a:active {
+  color: #9cafb7;
+}
+
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+ }
+
+@media (max-width: 1800px) {
+  #main-text {
+   background-color: #ffe4c4;
+   flex-flow: row wrap;
+   flex-direction: column;
+   
+ }
+  .facts {
+    padding: 10px;
+    height: auto;
+  }
+  
+  .fact-size {
+    max-width: 100%;
+  }
+}
+
+
