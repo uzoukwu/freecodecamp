@@ -9,123 +9,112 @@
     <body>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<main class="main">
-  <h1 id="title">Zombie Apocalypse Survey</h1>
-
-  <p id="description">Your data for the next zombie apocalypse:</p>
-
-  <form id="survey-form">
-    
-     <fieldset>
-    <legend class="spacing">Personal Details:</legend>
-    <label for="name" id="name-label">Survivor Name: </label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required><br />
-    <label for="email" id="email-label">Email: </label>
-    <input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
-    <label for="number" id="number-label">Age: </label><br>
-    <input type="number" id="number" name="number" min="1" max="100" placeholder="Your age">
- </fieldset>
-
-  <fieldset>
-      <legend class="spacing">Favorite Vehicle to Escape the Apocalypse</legend>
-      <input type="radio" id="car" name="vehicle" value="car">
-      <label for="car">Car</label><br />
-
-      <input type="radio" id="motorcycle" name="vehicle" value="motorcycle">
-      <label for="motorcycle">Motorcycle</label><br />
-
-      <input type="radio" id="minivan" name="vehicle" value="minivan">
-      <label for="minivan">Minivan</label><br />
-
-      <input type="radio" id="truck" name="vehicle" value="truck">
-      <label for="truck">Truck</label><br />
-
-      <input type="radio" id="bike" name="vehicle" value="bike">
-      <label for="truck">Bike</label>
-    </fieldset>
-
-       <fieldset>
-      <legend class="spacing">Do you enjoy zombie themed fiction?</legend> <input type="radio" id="yes"
-        name="choice" value="yes">
-      <label for="yes">Yes</label><br />
-
-      <input type="radio" id="no" name="choice" value="no">
-      <label for="no">No</label><br />
-    </fieldset>
-    
-    <fieldset>
-      <legend>
-        <label for="dropdown">Best Weapon to Defeat a Zombie Mob: </label></legend>
-    <select id="dropdown">
-      <ul>
-        <li>
-          <option value="" selected disabled hidden>Choose a weapon</option>
-        </li>
-
-        <li>
-          <option value="Sword">Sword</option>
-        </li>
-        <li>
-          <option value="Shotgun">Shotgun</option>
-        </li>
-        <li>
-          <option value="Machete">Machete</option>
-        </li>
-        <li>
-          <option value="Baseball Bat">Baseball Bat</option>
-        </li>
-        <li>
-          <option value="Nunchaku">Nunchaku</option>
-        </li>
-        <li>
-          <option value="Flamethrower">Flamethrower</option>
-        </li>
-        <li>
+        <main class="main">
+          <h1 id="title">Zombie Apocalypse Survey</h1>
+        
+          <p id="description">Your data for the next zombie apocalypse:</p>
+        
+          <form id="survey-form">
+            
+             <fieldset>
+            <legend class="spacing">Personal Details:</legend>
+            <label for="name" id="name-label">Survivor Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br />
+            <label for="email" id="email-label">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+            <label for="number" id="number-label">Age: </label><br>
+            <input type="number" id="number" name="number" min="1" max="100" placeholder="Your age">
+         </fieldset>
+        
+          <fieldset>
+              <legend class="spacing">Favorite Vehicle to Escape the Apocalypse</legend>
+              <input type="radio" id="car" name="vehicle" value="car">
+              <label for="car">Car</label><br />
+        
+              <input type="radio" id="motorcycle" name="vehicle" value="motorcycle">
+              <label for="motorcycle">Motorcycle</label><br />
+        
+              <input type="radio" id="minivan" name="vehicle" value="minivan">
+              <label for="minivan">Minivan</label><br />
+        
+              <input type="radio" id="truck" name="vehicle" value="truck">
+              <label for="truck">Truck</label><br />
+        
+              <input type="radio" id="bike" name="vehicle" value="bike">
+              <label for="truck">Bike</label>
+            </fieldset>
+        
+               <fieldset>
+              <legend class="spacing">Do you enjoy zombie themed fiction?</legend> <input type="radio" id="yes"
+                name="choice" value="yes">
+              <label for="yes">Yes</label><br />
+        
+              <input type="radio" id="no" name="choice" value="no">
+              <label for="no">No</label><br />
+            </fieldset>
+            
+            <fieldset>
+              <legend>
+                <label for="dropdown">Best Weapon to Defeat a Zombie Mob: </label></legend>
+            <select id="dropdown">
+         <option value="" selected disabled hidden>Choose a weapon</option>
+               
+                  <option value="Sword">Sword</option>
+               
+                  <option value="Shotgun">Shotgun</option>
+              
+                  <option value="Machete">Machete</option>
+              
+                  <option value="Baseball Bat">Baseball Bat</option>
+                
+                  <option value="Nunchaku">Nunchaku</option>
+                
+                  <option value="Flamethrower">Flamethrower</option>
           <option value="Fists">Fists</option>
-        </li>
-      </ul>
-    </select>
-    </fieldset>
-
-    <fieldset>
-      <legend class="spacing">Which of the following undead have you encountered before? (Select all that apply)
-      </legend>
-
-      <input type="checkbox" name="zombies" value="feral" id="feral">
-      <label for="feral"> Feral</label>
-
-      <input type="checkbox" name="zombies" value="crawler" id="crawler">
-      <label for="crawler">Crawler</label>
-
-      <input type="checkbox" name="zombies" value="viral" id="viral">
-      <label for="viral"> Viral</label>
-
-      <input type="checkbox" name="zombies" value="exploder" id="exploder">
-      <label for="exploder"> Exploder</label>
-
-      <input type="checkbox" name="zombies" value="hazmat" id="hazmat">
-      <label for="hazmat"> Hazmat</label>
-      <input type="checkbox" name="zombies" value="animal-zombie">
-      <label for="animal-zombie"> Animal Zombie</label>
-
-      <input type="checkbox" name="zombies" value="runner" id="runner">
-      <label for="runner"> Runner</label>
-
-      <input type="checkbox" name="zombies" value="walker" id="walker">
-      <label for="walker"> Walker</label><br />
-      </fieldset>
-
-    
-
-  
-      <label for="comments">Comments:</label>
-      <textarea id="comments" name="comments" rows="8" cols="8" placeholder="Leave your comments here"></textarea>
-
-
-    <button type="submit" value="submit" id="submit">SEND</button>
-
-
-  </form>
+            
+            </select>
+            </fieldset>
+        
+            <fieldset>
+              <legend class="spacing">Which of the following undead have you encountered before? (Select all that apply)
+              </legend>
+        
+              <input type="checkbox" name="zombies" value="feral" id="feral">
+              <label for="feral"> Feral</label>
+        
+              <input type="checkbox" name="zombies" value="crawler" id="crawler">
+              <label for="crawler">Crawler</label>
+        
+              <input type="checkbox" name="zombies" value="viral" id="viral">
+              <label for="viral"> Viral</label>
+        
+              <input type="checkbox" name="zombies" value="exploder" id="exploder">
+              <label for="exploder"> Exploder</label>
+        
+              <input type="checkbox" name="zombies" value="hazmat" id="hazmat">
+              <label for="hazmat"> Hazmat</label>
+              <input type="checkbox" name="zombies" value="animal-zombie" id="animal-zombie">
+              <label for="animal-zombie"> Animal Zombie</label>
+        
+              <input type="checkbox" name="zombies" value="runner" id="runner">
+              <label for="runner"> Runner</label>
+        
+              <input type="checkbox" name="zombies" value="walker" id="walker">
+              <label for="walker"> Walker</label><br />
+              </fieldset>
+        
+            
+        
+          
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments" rows="8" cols="8" placeholder="Leave your comments here"></textarea>
+        
+        
+            <button type="submit" value="submit" id="submit">SEND</button>
+        
+        
+          </form>
+        </main>
 </main>
 </body>
 </html>
